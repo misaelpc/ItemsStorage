@@ -13,6 +13,7 @@
 		0CBD803C20BE3DA000EEFFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBD803B20BE3DA000EEFFF3 /* Assets.xcassets */; };
 		0CBD803F20BE3DA000EEFFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBD803D20BE3DA000EEFFF3 /* LaunchScreen.storyboard */; };
 		0CBD804220BE3DA000EEFFF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD804120BE3DA000EEFFF3 /* main.m */; };
+		0CBD804A20BE3DC200EEFFF3 /* BNRITem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD804920BE3DC200EEFFF3 /* BNRITem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0CBD803E20BE3DA000EEFFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CBD804020BE3DA000EEFFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CBD804120BE3DA000EEFFF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CBD804820BE3DC200EEFFF3 /* BNRITem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRITem.h; sourceTree = "<group>"; };
+		0CBD804920BE3DC200EEFFF3 /* BNRITem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRITem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				0CBD803D20BE3DA000EEFFF3 /* LaunchScreen.storyboard */,
 				0CBD804020BE3DA000EEFFF3 /* Info.plist */,
 				0CBD804120BE3DA000EEFFF3 /* main.m */,
+				0CBD804820BE3DC200EEFFF3 /* BNRITem.h */,
+				0CBD804920BE3DC200EEFFF3 /* BNRITem.m */,
 			);
 			path = ItemsStorage;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CBD803720BE3D9D00EEFFF3 /* ViewController.m in Sources */,
+				0CBD804A20BE3DC200EEFFF3 /* BNRITem.m in Sources */,
 				0CBD804220BE3DA000EEFFF3 /* main.m in Sources */,
 				0CBD803420BE3D9D00EEFFF3 /* AppDelegate.m in Sources */,
 			);
